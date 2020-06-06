@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  c-helloworld:
+    image: c-helloworld
+    build: .
+    ports:
+      - 3000
